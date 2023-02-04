@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "disablenightskipping",
+  "version": "${version}",
+  "name": "DisableNightSkipping",
+  "description": "This mod stops players from skipping the night by sleeping in a bed.",
+  "authors": [
+    "Legosteenjaap"
+  ],
+  "contact": {
+    "sources": "https://github.com/legosteenjaap/DisableNightSkipping"
+  },
+  "license": "LGPL-3.0 License",
+  "icon": "assets/disablenightskipping/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.legosteenjaap.fabric.DisableNightSkippingFabric"
+    ]
+  },
+  "mixins": [
+    "disablenightskipping-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.2.43"
+  }
+}
