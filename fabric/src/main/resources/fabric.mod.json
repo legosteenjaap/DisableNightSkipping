@@ -8,7 +8,8 @@
     "Legosteenjaap"
   ],
   "contact": {
-    "sources": "https://github.com/legosteenjaap/DisableNightSkipping"
+    "sources": "https://github.com/legosteenjaap/DisableNightSkipping",
+    "issues": "https://github.com/legosteenjaap/DisableNightSkipping/issues"
   },
   "license": "LGPL-3.0 License",
   "icon": "assets/disablenightskipping/icon.png",

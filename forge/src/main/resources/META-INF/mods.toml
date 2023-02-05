@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/legosteenjaap/DisableNightSkipping/issues"
 license = "LGPL-3.0 License"
 
 [[mods]]
@@ -11,23 +11,23 @@ authors = "Legosteenjaap"
 description = '''
 This mod stops players from skipping the night by sleeping in a bed.
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.disablenightskipping]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.disablenightskipping]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.disablenightskipping]]
 modId = "architectury"
 mandatory = true
 versionRange = "[6.2.43,)"
